@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  border: 5px solid #007bff; /* thick blue border */
+  border-radius: 0.25rem; /* rounded corners */
+}
+.card-body {
+  padding: 20px; /* add padding around the content inside the card */
+}
+.pricing-box {
+  background-color: #007bff; /* fill empty space with blue color */
+}
+
+.pricing-box {
+  background-color: white; /* background color of the outer box */
+  padding: 20px; /* space between the outer box and inner boxes */
+}
+
+.pricing-box .inner-box {
+  background-color: #007bff; /* background color of the inner boxes */
+  border-radius: 5px; /* rounded corners */
+}
+
